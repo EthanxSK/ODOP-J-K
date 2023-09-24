@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: #fff;
+  background: #141414;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: clamp(1rem, 5vw, 5rem);
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-right: -0.5em;
+  color: #ccc;
+  width: 90vw;
+  max-width: 1200px;
+  white-space: nowrap;
+}
+a {
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
+}
+section {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  visibility: hidden;
+}
+section .outer,
+section .inner {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+section .bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+}
+section .bg h2 {
+  z-index: 2;
+}
+section .bg .clip-text {
+  overflow: hidden;
+}
+.first .bg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url("../ananatang-infinte.avif");
+}
+.second .bg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url("https://images.squarespace-cdn.com/content/v1/5ab61c67ec4eb7ab7a2f40f2/1591583105397-TG8TA5Y5EZLHCTVKAGW3/bhaderwah1?format=1500w");
+}
+.third .bg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(jammu.jpg);
+}
+.fourth .bg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(https://1.bp.blogspot.com/-KHrNScJPJKE/WZ0dxlU-pRI/AAAAAAAACQA/KUt17YabTjkFZgnIAQTTuxkwsjfNvMj4gCLcBGAs/s1600/Basantar%2Briver%2Bside%2Boff%2Broad%2Btrail%2B-%2Bblue%2Bwaters%2Bat%2BPayoor%252C%2BJammu.jpg);
+}
+.sixth .bg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(https://media.istockphoto.com/id/1190877721/photo/patnitop.jpg?s=612x612&w=0&k=20&c=5Rsf6WDcGenTi2nJdUTX9fFJxlcKzucojAibOJrZHFw=)
+}
+.seven .bg{
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(https://www.thepirpanjal.com/wp-content/uploads/2020/11/125801969_210122420502586_8464868889823232329_o.jpg)
+}
+.eight .bg  {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(https://static.india.com/wp-content/uploads/2019/06/A-sweeping-view-of-Kashmir-Valley.-.jpg?impolicy=Medium_Resize&w=1200&h=800)
+}
+.nine .bg  {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(https://i.pinimg.com/736x/a1/80/5f/a1805f2c24e1ad42b0b6fad4ca7fe68e--kashmir-pakistan-azad-kashmir.jpg)
+}
+.ten .bg  {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(https://www.nativeplanet.com/photos/560x292/2018/09/photo-92-103527-2.jpg)
+}
+.eleven .bg  {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(https://kashmirscanmagazine.com/wp-content/uploads/2022/01/1636038507990.jpeg)
+}
+.twelve .bg  {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(https://www.dailyexcelsior.com/wp-content/uploads/2016/12/kishtwar1.jpg)
+}
+.thirteen .bg  {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(https://i.pinimg.com/originals/53/14/e1/5314e17a11aff0afbe806dc4b4e4fbcd.jpg)
+}
+
+
+.fifth .bg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url("https://free4kwallpapers.com/uploads/originals/2023/02/26/galaxy-wallpaper.jpg");
+  background-position: 50% 45%;
+}
+
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-heading i {
+  font-size: 3rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-heading i.fa-github-alt {
+  font-size: 3.2rem;
+}
